@@ -1,15 +1,17 @@
 @import "abstracts/variables";
 
 @import "base/base";
+@import "base/typography";
 
 @import "components/buttons";
-@import "components/calendars";
+@import "components/calendar";
 @import "components/decor";
 @import "components/infoboxes";
 @import "components/payments";
 @import "components/sharanya-images";
 @import "components/social-links";
 
+@import "layout/about";
 @import "layout/footer";
 @import "layout/navigation";
 

@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  font-family: 'Dosis', sans-serif;
+}
+
+.light {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.regular {
+  font-weight: 600;
+}
+
+.semibold {
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 320px) {
+  .header-text {
+    font-size: 1.6rem;
+  }
+
+  .sub-header {
+    font-size: 1.4rem;
+  }
+
+  .content-header {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-text {
+    font-size: 1.7rem;
+  }
+
+  .sub-header {
+    font-size: 1.6rem;
+  }
+
+  .content-header {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-text {
+    font-size: 1.8rem;
+  }
+
+  .sub-header {
+    font-size: 1.7rem;
+  }
+
+  .content-header {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header-text {
+    font-size: 2rem;
+  }
+
+  .sub-header {
+    font-size: 1.8rem;
+  }
+
+  .content-header {
+    font-size: 1.6rem;
+  }
+}

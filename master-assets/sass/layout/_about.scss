@@ -1,0 +1,143 @@
+@media only screen and (min-width: 320px) {
+  #about-sharanya {
+
+    .about__sharanya {
+      padding: 1rem 6rem 4rem 6rem;
+
+      &-header {
+        padding: 8.7rem 0 1rem 0;
+      }
+
+      &-content {
+
+        .content-header:last-child {
+          padding-bottom: 4rem;
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #about-sharanya {
+
+    .about__sharanya {
+      padding: 1rem 23.6rem 7rem 16.8rem;
+
+      &-header {
+        padding: 8.7rem 0 1rem 0;
+      }
+
+      &-content {
+
+        .content-header:last-child {
+          padding-bottom: 7rem;
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #about-sharanya {
+
+    .about__sharanya {
+
+      &-header {
+        font-size: 3rem;
+        line-height: 5.3rem;
+        font-weight: 500;
+      }
+
+      &-content {
+        padding: 1.6rem 0 7rem 7.6rem;
+
+        .content-header {
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #about-sharanya {
+
+    .about__sharanya {
+
+      &-content {
+        padding: 1.6rem 14rem 7rem 12rem;
+
+        .content-header {
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #about-sharanya {
+
+    .about__sharanya {
+
+      &-content {
+        padding: 1.6rem 25rem 7rem 17rem;
+
+        .content-header {
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1535px) {
+  #about-sharanya {
+
+    .about__sharanya {
+
+      &-content {
+        padding: 1.6rem 45rem 7rem 11rem;
+
+        .content-header {
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  #about-sharanya {
+
+    .about__sharanya {
+
+      &-content {
+        padding: 1.6rem 56rem 7rem 9rem;
+
+        .content-header {
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  #about-sharanya {
+
+    .about__sharanya {
+
+      &-content {
+        padding: 1.6rem 100rem 7rem 9rem;
+
+        .content-header {
+        }
+      }
+
+    }
+  }
+}
