@@ -99,123 +99,130 @@ body {
     font-size: 1.6rem; } }
 
 @media only screen and (min-width: 320px) {
-  #about-sharanya .decor-left .decor {
-    position: absolute;
-    top: 28rem; }
-  #about-sharanya .decor-right .decor {
-    position: absolute;
-    left: 21rem;
-    bottom: -8rem; } }
+  #about-sharanya {
+    position: relative; }
+    #about-sharanya .decor-left .decor {
+      position: absolute;
+      top: 4rem; }
+    #about-sharanya .decor-right .decor {
+      position: absolute;
+      left: 21rem;
+      bottom: 0rem; } }
 
 @media only screen and (min-width: 360px) {
   #about-sharanya .decor-right .decor {
     position: absolute;
     left: 24.5rem;
-    bottom: 9rem; } }
+    bottom: 0rem; } }
 
 @media only screen and (min-width: 375px) {
   #about-sharanya .decor-right .decor {
     position: absolute;
     left: 25rem;
-    bottom: 8rem; } }
+    bottom: 2rem; } }
 
 @media only screen and (min-width: 411px) {
   #about-sharanya .decor-right .decor {
     position: absolute;
     left: 29.5rem;
-    bottom: 15rem; } }
+    bottom: 2rem; } }
 
 @media only screen and (min-width: 480px) {
   #about-sharanya .decor-right .decor {
     position: absolute;
     left: 36.5rem;
-    bottom: 29rem; } }
+    bottom: 0rem; } }
 
 @media only screen and (min-width: 560px) {
   #about-sharanya .decor-right .decor {
     position: absolute;
     left: 43.5rem;
-    bottom: 46rem; } }
+    bottom: 0rem; } }
 
 @media only screen and (min-width: 641px) {
   #about-sharanya .decor-right .decor {
     position: absolute;
     left: 50.5rem;
-    bottom: 46rem; } }
+    bottom: 0rem; } }
 
 @media only screen and (min-width: 768px) {
   #about-sharanya .decor-left .decor {
     position: absolute;
-    top: 20rem;
+    top: 2rem;
     left: 8rem;
     width: 20%; }
   #about-sharanya .decor-right .decor {
     position: absolute;
-    left: 43.5rem;
-    bottom: 81rem;
+    left: 44.5rem;
+    bottom: 5rem;
     width: 20%; } }
 
 @media only screen and (min-width: 992px) {
+  #about-sharanya .decor-left .decor {
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    width: 20%; }
   #about-sharanya .decor-right .decor {
     position: absolute;
-    left: 70.5rem;
-    bottom: -8rem;
+    left: 66.5rem;
+    bottom: 2rem;
     width: 20%; } }
 
 @media only screen and (min-width: 1080px) {
   #about-sharanya .decor-right .decor {
     position: absolute;
-    left: 76.5rem;
-    bottom: -8rem;
+    left: 72.5rem;
+    bottom: 3rem;
     width: 20%; } }
 
 @media only screen and (min-width: 1200px) {
   #about-sharanya .decor-left .decor {
     position: absolute;
-    top: 23rem;
-    left: 4rem;
+    top: 0rem;
+    left: 5rem;
     width: 18%; }
   #about-sharanya .decor-right .decor {
     position: absolute;
-    left: 67.5rem;
-    bottom: -1rem;
+    left: 71.5rem;
+    bottom: 45rem;
     width: 18%; } }
 
 @media only screen and (min-width: 1440px) {
   #about-sharanya .decor-left .decor {
     position: absolute;
-    top: 21rem;
+    top: 0rem;
     left: 6rem;
     width: 15%; }
   #about-sharanya .decor-right .decor {
     position: absolute;
     left: 82.5rem;
-    bottom: 15rem;
+    bottom: 43rem;
     width: 15%; } }
 
 @media only screen and (min-width: 1535px) {
   #about-sharanya .decor-right .decor {
     position: absolute;
     left: 74.5rem;
-    bottom: 16rem;
+    bottom: 48rem;
     width: 15%; } }
 
 @media only screen and (min-width: 1600px) {
   #about-sharanya .decor-left .decor {
     position: absolute;
-    top: 22rem;
+    top: 0rem;
     left: 7rem;
     width: 10%; }
   #about-sharanya .decor-right .decor {
     position: absolute;
-    left: 88.5rem;
-    bottom: 37rem;
+    left: 86.5rem;
+    bottom: 43rem;
     width: 10%; } }
 
 @media only screen and (min-width: 2100px) {
   #about-sharanya .decor-left .decor {
     position: absolute;
-    top: 22rem;
+    top: 2rem;
     left: 7rem;
     width: 8%; }
   #about-sharanya .decor-right .decor {
@@ -223,6 +230,62 @@ body {
     left: 80.5rem;
     bottom: 54rem;
     width: 8%; } }
+
+@media only screen and (min-width: 320px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: none; } }
+
+@media only screen and (min-width: 1200px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 20%;
+      position: relative;
+      left: 88rem;
+      bottom: 19rem; } }
+
+@media only screen and (min-width: 1280px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 20%;
+      position: relative;
+      left: 95rem;
+      bottom: 19rem; } }
+
+@media only screen and (min-width: 1440px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 17%;
+      position: relative;
+      left: 105rem;
+      bottom: 19rem; } }
+
+@media only screen and (min-width: 1535px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 17%;
+      position: relative;
+      left: 95rem;
+      bottom: 19rem; } }
+
+@media only screen and (min-width: 1600px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 13%;
+      position: relative;
+      left: 117rem;
+      bottom: 19rem; } }
 
 @media only screen and (min-width: 320px) {
   #about-sharanya .about__sharanya {

@@ -1,0 +1,80 @@
+@media only screen and (min-width: 320px) {
+  .people__about-sharanya {
+    position: relative;
+
+    img {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .people__about-sharanya {
+    position: relative;
+
+    img {
+      display: block;
+      width: 20%;
+      position: relative;
+      left: 88rem;
+      bottom: 19rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .people__about-sharanya {
+    position: relative;
+
+    img {
+      display: block;
+      width: 20%;
+      position: relative;
+      left: 95rem;
+      bottom: 19rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .people__about-sharanya {
+    position: relative;
+
+    img {
+      display: block;
+      width: 17%;
+      position: relative;
+      left: 105rem;
+      bottom: 19rem;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1535px) {
+  .people__about-sharanya {
+    position: relative;
+
+    img {
+      display: block;
+      width: 17%;
+      position: relative;
+      left: 95rem;
+      bottom: 19rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .people__about-sharanya {
+    position: relative;
+
+    img {
+      display: block;
+      width: 13%;
+      position: relative;
+      left: 117rem;
+      bottom: 19rem;
+    }
+  }
+}
