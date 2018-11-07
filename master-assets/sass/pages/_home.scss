@@ -43,6 +43,46 @@
       }
     }
   }
+
+  .dance__information-grid {
+    .dance__info-grid {
+      padding-bottom: 3rem;
+      .dance__info-column {
+        text-align: center;
+
+        .dance_infobox {
+          border-radius: 3px;
+          border: 2px solid $gold;
+          min-height: 25rem;
+
+          p {
+            padding: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  #events {
+    background-color: $gold;
+    padding: 2rem;
+    .events {
+      .events-container {
+        margin: auto;
+
+        .events_column {
+
+          h4:last-child {
+            padding-top: 5rem;
+          }
+
+          .events_image {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1440px) {
